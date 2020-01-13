@@ -91,6 +91,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="50dp"
                 android:paddingLeft="100dp"
+                android:id="@+id/sup"
                 android:textColor="#FFEB3B"
                 android:text="Login"
                 android:textSize="30dp"
