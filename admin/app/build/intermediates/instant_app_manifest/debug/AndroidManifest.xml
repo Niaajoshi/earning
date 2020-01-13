@@ -18,7 +18,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.admin.MainActivity" >
+        <activity android:name="com.admin.fagmenttable" />
+        <activity android:name="com.admin.fragmentfixture" />
+        <activity android:name="com.admin.fragmentconn" />
+        <activity android:name="com.admin.listview" />
+        <activity android:name="com.admin.toolbar" />
+        <activity android:name="com.admin.dashadm" />
+        <activity android:name="com.admin.admin_sig" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
