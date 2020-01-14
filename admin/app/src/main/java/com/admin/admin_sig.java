@@ -1,7 +1,6 @@
 package com.admin;
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.View;
@@ -30,11 +29,7 @@ public class admin_sig extends AppCompatActivity {
         usrusr = (EditText) findViewById(R.id.usrusr);
         pswd = (EditText) findViewById(R.id.pswrdd);
         sup = (TextView) findViewById(R.id.sup);
-        Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/LatoLight.ttf");
-        Typeface custom_font1 = Typeface.createFromAsset(getAssets(), "fonts/LatoRegular.ttf");
-        sup.setTypeface(custom_font);
-        usrusr.setTypeface(custom_font);
-        pswd.setTypeface(custom_font);
+
         sup.setOnClickListener(new View.OnClickListener()
         {
             @Override

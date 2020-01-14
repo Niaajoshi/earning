@@ -40,7 +40,7 @@ public class dashadm extends AppCompatActivity {
         drawerItem[1] = new datamodel(R.drawable.fixtures, "Fixtures");
         drawerItem[2] = new datamodel(R.drawable.table, "Table");
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
-        getSupportActionBar().setHomeButtonEnabled(true);
+       getSupportActionBar().setHomeButtonEnabled(true);
 
         listview adapter = new listview(this, R.layout.activity_listview, drawerItem);
         mDrawerList.setAdapter(adapter);
@@ -119,7 +119,7 @@ public class dashadm extends AppCompatActivity {
     void setupToolbar(){
         toolbar= (Toolbar) findViewById(R.id.toolbar1);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
+       getSupportActionBar().setDisplayShowHomeEnabled(true);
     }
 
     void setupDrawerToggle(){
